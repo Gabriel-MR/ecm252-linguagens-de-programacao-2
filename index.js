@@ -30,3 +30,4 @@ if (idade >=18){
 }
 console.log('ate mais ' + nome)
 console.log('\n')
+// testando commit
