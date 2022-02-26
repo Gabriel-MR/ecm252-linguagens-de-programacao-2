@@ -36,3 +36,19 @@ for(i=0;i<nomes.length;i++){
         console.log(nomes[i])
     }
 }
+
+function achar(nome){
+    
+    // variávis não sobreescritas
+    const nome_maiusculo = nome[0].toUpperCase() + nome.substr(1)
+    for(i=0;i<nomes.length;i++){
+        if (nomes[i] == nome_maiusculo){
+            console.log(true)
+            break
+        }else
+            console.log(false)
+            break
+    }
+}
+
+achar(nome="Ana")
