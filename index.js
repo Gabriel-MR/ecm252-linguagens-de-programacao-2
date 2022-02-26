@@ -2,7 +2,6 @@
 // node.js
 baixar node https://nodejs.org/en/
 pip3 install node
-baixar npm https://www.npmjs.com/
 baixar nvm https://github.com/coreybutler/nvm-windows
 
 terminal:
