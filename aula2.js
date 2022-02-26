@@ -6,6 +6,7 @@ console.log(1=='1') //True
 console.log(1===1) // True
 console.log(1==='1') //False
 
+
 const v = []
 v[0] = 3.4
 v[2] = "abc"
@@ -38,7 +39,6 @@ for(i=0;i<nomes.length;i++){
 }
 
 function achar(nome){
-    
     // variávis não sobreescritas
     const nome_maiusculo = nome[0].toUpperCase() + nome.substr(1)
     for(i=0;i<nomes.length;i++){
