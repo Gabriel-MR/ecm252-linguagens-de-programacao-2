@@ -32,4 +32,40 @@ function map (v, f){
     return resposta
 
 }
-console.log(map(['abc', 'abcd'], x =>x.length))
+console.log(map(['abc', 'abcd'], x => x.length))
+
+
+
+function eAgora(){
+    let cont=1
+    function f1(){
+        console.log(cont)
+    }
+    cont++
+    function f2(){
+        console.log(cont)
+    }
+    // objeto json
+    return {f1, f2}
+}
+
+let resposta_agora = eAgora()
+resposta_agora.f1()
+resposta_agora.f2()
+
+
+
+let mdChefe = {
+    nome: "rei lacoste indomável",
+    idade: 21,
+    endereco: {
+        rua: "castelo da realeza",
+        referencia: "malote com a tropa",
+    },
+    pet: "lacoste",
+    bebida: "whisky com gosto amadeirado"
+}
+
+console.log(mdChefe.nome)
+console.log(mdChefe.endereco.rua)
+console.log(mdChefe.pet)
