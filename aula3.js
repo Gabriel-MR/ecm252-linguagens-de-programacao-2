@@ -69,3 +69,30 @@ let mdChefe = {
 console.log(mdChefe.nome)
 console.log(mdChefe.endereco.rua)
 console.log(mdChefe.pet)
+/*
+// importação
+const fs = require("fs")
+//função callback
+const abrirArquivo= function(nomeArquivo){
+    const exibirConteudo = function(erro, conteudo){
+        if(erro)
+            console.log(`Deu erro: ${erro}`)
+        else{
+            let fd
+            console.log(`Conteudo: ${conteudo.toString()}`)
+            const triplo =+conteudo.toString()*3
+            const finalizar = (erro)
+                if (erro)
+                    console.log("Erro ao salvar o triplo")
+                else
+                    console.log("Salvou com sucesso")
+                fs.close(fd)
+        }
+        fd = fs.writeFile("triplo.txt", triplo.toString(), finalizar)
+    }
+    fs.readFile(nomeArquivo, exibirConteudo)
+    
+}
+abrirArquivo("arquivo.txt")
+*/
+
