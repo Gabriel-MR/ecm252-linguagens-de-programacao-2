@@ -57,6 +57,7 @@ resposta_agora.f2()
 
 let mdChefe = {
     nome: "rei lacoste indomável",
+    vulgo: "Md Chefe",
     idade: 21,
     endereco: {
         rua: "castelo da realeza",
@@ -66,9 +67,12 @@ let mdChefe = {
     bebida: "whisky com gosto amadeirado"
 }
 
-console.log(mdChefe.nome)
-console.log(mdChefe.endereco.rua)
-console.log(mdChefe.pet)
+console.log("nome: " + mdChefe.nome)
+console.log("vulgo: " + mdChefe.vulgo)
+console.log("endereco: " + mdChefe.endereco.rua + ", " + mdChefe.endereco.referencia)
+console.log("pet: " + mdChefe.pet)
+console.log("bebida: " + mdChefe.bebida)
+
 /*
 // importação
 const fs = require("fs")
