@@ -1,1 +1,7 @@
+mss lembretes e informações
+
+npm install express axios
+nodemon --save-dev
+
+instalar as dependencias depois de clonar o repositorio
 - npm install
