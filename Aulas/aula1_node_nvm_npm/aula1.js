@@ -1,18 +1,4 @@
 /*
-// node.js
-baixar node https://nodejs.org/en/
-pip3 install node
-
-baixar nvm https://github.com/coreybutler/nvm-windows
-
-terminal:
-nvm install 14.17.3
-nvm use 14.17.3
-node
-// rodar no terminal: node nome_arquivo.js
-*/
-
-/*
 // variavel constante
 const nome='Gabriel'
 const idade=21
