@@ -10,4 +10,6 @@ nvm install 14.17.3
 nvm use 14.17.3
 node
 // rodar no terminal: node nome_arquivo.js
+
+npm install (dentro de cada pasta que precisa dos requisitos)
 */
